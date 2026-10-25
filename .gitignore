@@ -1,0 +1,14 @@
+# Local database configuration and secrets
+config/db.php
+
+# User-uploaded files and private project files
+uploads/
+project_files/
+
+# Local and temporary files
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+test_db.php
